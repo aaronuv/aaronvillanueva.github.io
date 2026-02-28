@@ -1,7 +1,6 @@
 {
   "title": "About Me",
-  "description": "Theoretical physicist working at the intersection of quantum control, quantum computing, and machine learning.
-  PhD candidate at Radboud University, Nijmegen.",
+  "description": "Theoretical physicist working at the intersection of quantum control, quantum computing, and machine learning. PhD candidate at Radboud University, Nijmegen.",
   "services": [
     {
       "title": "Quantum Control & Feedback",
