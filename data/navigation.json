@@ -1,7 +1,7 @@
 [
-  { "label": "About",      "target": "#about" },
-  { "label": "Resume",     "target": "#resume" },
-  { "label": "Portfolio",  "target": "#portfolio" },
-  { "label": "Honors",     "target": "#honors" },
-  { "label": "Contact",    "target": "#contact" }
+  { "label": "About",     "target": "#about" },
+  { "label": "Resume",    "target": "#resume" },
+  { "label": "Portfolio", "target": "#portfolio" },
+  { "label": "Honors",    "target": "#honors" },
+  { "label": "Contact",   "target": "#contact" }
 ]
