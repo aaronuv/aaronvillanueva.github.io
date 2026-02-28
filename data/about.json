@@ -1,26 +1,11 @@
 {
-  "title": "About Me",
-  "description": "A skilled Software Engineer with strong experience in automation, software development, and IT infrastructure. Proven ability to deliver solutions that enhance productivity and efficiency, while overseeing major infrastructure deployments and building mobile, desktop, and web applications. Currently serving as an Application Development Senior Specialist at Vodafone Oman, focused on optimizing processes and improving business outcomes through innovative development and effective problem-solving.",
-  "services": [
-    {
-      "icon": "fas fa-laptop-code",
-      "title": "IT Automation",
-      "description": "Implementing automated solutions to increase efficiency and reduce costs using Python, PowerShell, and Bash scripting."
-    },
-    {
-      "icon": "fas fa-mobile-alt",
-      "title": "App Development",
-      "description": "Creating cross-platform mobile applications using Flutter and native Android apps with Java."
-    },
-    {
-      "icon": "fas fa-server",
-      "title": "IT Infrastructure",
-      "description": "Managing servers, hypervisors, containers, and web servers including Linux, Windows Server, and virtualization technologies."
-    },
-    {
-      "icon": "fas fa-bug",
-      "title": "Test Automation",
-      "description": "Automating testing processes for mobile apps, websites, and APIs using Appium, Selenium, and JMeter."
-    }
+  "id": "about",
+  "title": "About",
+  "intro": "My research bridges theoretical quantum control and quantum simulation of open and closed quantum systems.",
+  "body": [
+    "I develop advanced control protocols for open quantum systems, including path-integral quantum control (PiQC) algorithms and stochastic optimal control frameworks. My work connects quantum measurement dynamics to double-bracket gradient flows, enabling feedback-driven quantum state preparation with exponential convergence guarantees.",
+    "I have deep expertise in Lindblad master equations, quantum trajectories, and the mathematical foundations of continuous measurement processes (Stratonovich and Itô formulations), with new geometric interpretations of wavefunction collapse as coarse-grained gradient flows on unitary orbits.",
+    "My research on quantum computing theory and algorithms critically analyzes quantum annealing speedup prospects and develops practical ground-state preparation methods on noisy quantum hardware, addressing decoherence, measurement backaction, and noise cancellation.",
+    "I maintain production-level scientific software, including reduced-order modeling tools (arby) and quantum control implementations (PiQC) in MATLAB and Python, and I work with machine learning frameworks such as PyTorch and Keras for reduced-order modeling and quantum applications."
   ]
-} 
+}
