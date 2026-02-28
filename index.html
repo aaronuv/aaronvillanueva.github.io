@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Asad Al Badi's Portfolio - Software Engineer specializing in automated solutions, software development and IT infrastructure">
+    <meta name="description" content="Aarón Villanueva - Theoretical Physicist specializing in quantum control, quantum computing, and machine learning">
     <meta name="theme-color" content="#7c3aed">
-            <title>Aarón Villanueva | Theoretical Physicist</title>
+    <title>Aarón Villanueva | Theoretical Physicist</title>
     <!-- Preload critical CSS -->
     <link rel="preload" href="css/colors.css" as="style">
     <link rel="preload" href="css/layout.css" as="style">
@@ -34,16 +34,16 @@
         <div class="sidebar-content">
             <div class="profile">
                 <div class="avatar">
-                    <img src="https://api.dicebear.com/7.x/initials/svg?seed=Asad%20Al%20Badi&backgroundColor=7c3aed&textColor=ffffff" alt="Asad Al Badi">
+                    <img src="https://api.dicebear.com/7.x/initials/svg?seed=Aar%C3%B3n%20Villanueva&backgroundColor=7c3aed&textColor=ffffff" alt="Aarón Villanueva">
                 </div>
                 <h1 class="name"><!-- Name loaded from profile.json --></h1>
                 <p class="title"><!-- Title loaded from profile.json --></p>
             </div>
-            
+
             <div class="contact-info">
                 <!-- Contact info loaded from profile.json -->
             </div>
-            
+
             <div class="social-links">
                 <!-- Social links loaded from profile.json -->
             </div>
@@ -56,30 +56,27 @@
         <nav class="navbar">
             <div class="mobile-header">
                 <div class="mobile-profile">
-                    <img src="https://api.dicebear.com/7.x/initials/svg?seed=Asad%20Al%20Badi&backgroundColor=7c3aed&textColor=ffffff" alt="">
+                    <img src="https://api.dicebear.com/7.x/initials/svg?seed=Aar%C3%B3n%20Villanueva&backgroundColor=7c3aed&textColor=ffffff" alt="">
                     <div>
                         <h1 class="name"><!-- Name loaded from profile.json --></h1>
                         <p class="title"><!-- Title loaded from profile.json --></p>
-                        <!-- Container for contact info in mobile header -->
-                        <div class="mobile-header-contact"></div> 
+                        <div class="mobile-header-contact"></div>
                     </div>
                 </div>
                 <button class="menu-toggle" aria-label="Toggle Menu">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
-            
+
             <!-- Mobile Menu Overlay (Hidden by default) -->
             <div class="mobile-menu-overlay">
                 <div class="mobile-menu-content">
                     <button class="close-menu-btn" aria-label="Close Menu">&times;</button>
-                    <!-- Mobile Navigation Links/Tabs will be loaded here -->
-                    <div class="mobile-nav-links"></div> 
-                    <!-- Mobile Contact Info will be loaded here -->
+                    <div class="mobile-nav-links"></div>
                     <div class="mobile-contact-info"></div>
                 </div>
             </div>
-            
+
             <!-- Horizontal Tab Navigation (Desktop/Tablet) -->
             <div class="tab-navigation">
                 <!-- Navigation tabs loaded from navigation.json -->
@@ -88,6 +85,7 @@
 
         <!-- Tab Content -->
         <div class="tab-content">
+
             <!-- About Section -->
             <section id="about" class="section tab-pane active">
                 <div class="section-header">
@@ -98,7 +96,7 @@
                     <p class="about-text">
                         <!-- Description loaded from about.json -->
                     </p>
-                    
+
                     <div class="what-i-do">
                         <h3>What I Do</h3>
                         <div class="services-grid">
@@ -108,115 +106,53 @@
                 </div>
             </section>
 
-            <!-- Resume Section -->
-            <section id="resume" class="section tab-pane">
+            <!-- Research Interests Section -->
+            <section id="research" class="section tab-pane">
                 <div class="section-header">
-                    <h2><!-- Title loaded from resume.json --></h2>
+                    <h2><!-- Title loaded from research.json --></h2>
                     <div class="section-line"></div>
                 </div>
-                
+                <div class="about-content">
+                    <p class="about-text">
+                        <!-- Description loaded from research.json -->
+                    </p>
+
+                    <div class="what-i-do">
+                        <h3>Research Areas</h3>
+                        <div class="services-grid">
+                            <!-- Research interest items loaded from research.json -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Publications Section -->
+            <section id="publications" class="section tab-pane">
+                <div class="section-header">
+                    <h2><!-- Title loaded from publications.json --></h2>
+                    <div class="section-line"></div>
+                </div>
+
                 <div class="resume-content">
                     <div class="resume-section">
-                        <h3>Work Experience</h3>
+                        <h3>Journal Articles</h3>
                         <div class="timeline">
-                            <!-- Work experience loaded from resume.json -->
+                            <!-- Journal publications loaded from publications.json -->
                         </div>
                     </div>
-                    
+
                     <div class="resume-section">
-                        <h3>Education</h3>
+                        <h3>Preprints</h3>
                         <div class="timeline">
-                            <!-- Education loaded from resume.json -->
+                            <!-- Preprints loaded from publications.json -->
                         </div>
                     </div>
-                    
+
                     <div class="resume-section">
-                        <h3>Certifications</h3>
+                        <h3>Conference Proceedings</h3>
                         <div class="timeline">
-                            <!-- Certifications loaded from resume.json -->
+                            <!-- Conference papers loaded from publications.json -->
                         </div>
-                    </div>
-                    
-                    <div class="skills-section" id="technical-skills">
-                        <h3>Technical Skills</h3>
-                        <div class="skills-grid">
-                            <!-- Technical skills loaded from resume.json -->
-                        </div>
-                    </div>
-                    
-                    <div class="skills-section" id="soft-skills">
-                        <h3>Soft Skills</h3>
-                        <div class="skills-grid">
-                            <!-- Soft skills loaded from resume.json -->
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Portfolio Section -->
-            <section id="portfolio" class="section tab-pane">
-                <div class="section-header">
-                    <h2>Portfolio</h2>
-                    <div class="section-line"></div>
-                </div>
-                
-                <div class="portfolio-filters">
-                    <!-- Filter buttons are now dynamically loaded from portfolio.js -->
-                </div>
-                
-                <div class="portfolio-grid">
-                    <!-- Portfolio items dynamically loaded from portfolio.json -->
-                </div>
-            </section>
-
-            <!-- Interests Section -->
-            <section id="interests" class="section tab-pane">
-                <div class="section-header">
-                    <h2><!-- Title loaded from interests.json --></h2>
-                    <div class="section-line"></div>
-                </div>
-                
-                <div class="interests-content">
-                    <!-- Core Interests -->
-                    <div class="core-interests">
-                        <h3>Core Interests</h3>
-                        <div class="interests-grid core-interests-grid">
-                             <!-- Core interests loaded here -->
-                        </div>
-                    </div>
-
-                    <!-- Fusion Passions -->
-                    <div class="fusion-passions">
-                        <h2><!-- Fusion title loaded here --></h2>
-                        <div class="interests-grid fusions-grid">
-                            <!-- Fusion passions loaded here -->
-                        </div>
-                    </div>
-
-                    <!-- Homelab Showcase -->
-                    <div class="homelab-showcase">
-                        <h2><!-- Homelab title loaded here --></h2>
-                        <div class="section-line"></div>
-                        <!-- Container for Homelab Links -->
-                        <div class="homelab-links"></div> 
-                        
-                        <div class="homelab-content">
-                            <!-- Homelab details loaded here -->
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Honors & Awards Section -->
-            <section id="honors" class="section tab-pane">
-                <div class="section-header">
-                    <h2><!-- Title loaded from honors.json --></h2>
-                    <div class="section-line"></div>
-                </div>
-                
-                <div class="honors-content">
-                    <div class="timeline">
-                        <!-- Awards loaded from honors.json -->
                     </div>
                 </div>
             </section>
@@ -227,19 +163,20 @@
                     <h2><!-- Title loaded from contact.json --></h2>
                     <div class="section-line"></div>
                 </div>
-                
+
                 <div class="contact-content">
                     <div class="contact-form-container">
                         <form class="contact-form">
                             <!-- Form fields loaded from contact.json -->
                         </form>
                     </div>
-                    
+
                     <div class="map-container">
                         <!-- Map loaded from contact.json -->
                     </div>
                 </div>
             </section>
+
         </div>
     </main>
 
@@ -249,10 +186,9 @@
 
     <script src="js/data-loader.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/portfolio.js"></script>
     <!-- jsPDF Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <!-- Load PDF Generator script -->
     <script src="js/pdfGenerator.js"></script>
 </body>
-</html> 
+</html>
