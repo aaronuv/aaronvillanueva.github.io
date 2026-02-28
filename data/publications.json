@@ -2,6 +2,36 @@
   "title": "Publications",
   "items": [
     {
+      "title": "Hamiltonian and double-bracket flow formulations of quantum measurements",
+      "authors": "A. Villanueva, L. P. Garcia-Pintos",
+      "venue": "arXiv:2512.15412",
+      "link": ""
+    },
+    {
+      "title": "Stochastic optimal control of open quantum systems",
+      "authors": "A. Villanueva, H. J. Kappen",
+      "venue": "arXiv:2410.18635 (2024)",
+      "link": "https://arxiv.org/abs/2410.18635"
+    },
+    {
+      "title": "Why adiabatic quantum annealing is unlikely to yield speed-up",
+      "authors": "A. Villanueva, P. Najafi, H. J. Kappen",
+      "venue": "Journal of Physics A: Mathematical and Theoretical 56(46), 465304 (2023)",
+      "link": "https://doi.org/10.1088/1751-8121/acff45"
+    },
+    {
+      "title": "Gravitational Wave Surrogates through Automated Machine Learning",
+      "authors": "A. Villanueva et al.",
+      "venue": "arXiv:2110.08901 [gr-qc] (2021)",
+      "link": "https://arxiv.org/abs/2110.08901"
+    },
+    {
+      "title": "Arby – Fast data-driven surrogates",
+      "authors": "A. Villanueva et al.",
+      "venue": "arXiv:2108.01305 [stat.CO] (2021)",
+      "link": "https://arxiv.org/abs/2108.01305"
+    },
+    {
       "title": "On ab initio-based, free and closed-form expressions for gravitational waves",
       "authors": "M. Tiglio, A. Villanueva",
       "venue": "Scientific Reports 11, 5832 (2021)",
@@ -14,40 +44,10 @@
       "link": ""
     },
     {
-      "title": "Why adiabatic quantum annealing is unlikely to yield speed-up",
-      "authors": "A. Villanueva, P. Najafi, H. J. Kappen",
-      "venue": "Journal of Physics A: Mathematical and Theoretical 56(46), 465304 (2023)",
-      "link": "https://doi.org/10.1088/1751-8121/acff45"
-    },
-    {
       "title": "Reduced order and surrogate models for gravitational waves",
       "authors": "M. Tiglio, A. Villanueva",
       "venue": "arXiv:2101.11608 [gr-qc] (2021), to appear in Living Reviews in Relativity",
       "link": "https://arxiv.org/abs/2101.11608"
-    },
-    {
-      "title": "Arby – Fast data-driven surrogates",
-      "authors": "A. Villanueva et al.",
-      "venue": "arXiv:2108.01305 [stat.CO] (2021)",
-      "link": "https://arxiv.org/abs/2108.01305"
-    },
-    {
-      "title": "Gravitational Wave Surrogates through Automated Machine Learning",
-      "authors": "A. Villanueva et al.",
-      "venue": "arXiv:2110.08901 [gr-qc] (2021)",
-      "link": "https://arxiv.org/abs/2110.08901"
-    },
-    {
-      "title": "Stochastic optimal control of open quantum systems",
-      "authors": "A. Villanueva, H. J. Kappen",
-      "venue": "arXiv:2410.18635 (2024)",
-      "link": "https://arxiv.org/abs/2410.18635"
-    },
-    {
-      "title": "Hamiltonian and double-bracket flow formulations of quantum measurements",
-      "authors": "A. Villanueva, L. P. Garcia-Pintos",
-      "venue": "arXiv:2512.15412",
-      "link": ""
     }
   ]
 }
