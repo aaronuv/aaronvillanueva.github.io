@@ -45,11 +45,13 @@ document.addEventListener('DOMContentLoaded', () => {
       el.textContent = data.title;
     });
     
-    // Avatar (Sidebar & Mobile Header)
-    document.querySelectorAll('.sidebar .avatar img, .mobile-profile img').forEach(el => {
-      el.src = data.avatar;
-      el.alt = data.name ? `${data.name}'s profile picture` : 'Profile picture'; 
-    });
+// Avatar (Sidebar & Mobile Header)
+document
+  .querySelectorAll('.sidebar .avatar img, .mobile-profile img')
+  .forEach(el => {
+    el.src = 'assets/images/profile.jpeg';
+    el.alt = data.name ? `${data.name}'s profile picture` : 'Profile picture';
+  });
     
     // Contact info (Sidebar)
     const contactInfoContainerSidebar = document.querySelector('.sidebar .contact-info');
