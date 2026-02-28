@@ -1,39 +1,12 @@
 {
-  "name": "Asad Al Badi",
-  "title": "Software Engineer",
-  "avatar": "assets/images/profile_cropped.png",
-  "contactInfo": [
-    {
-      "icon": "fas fa-envelope",
-      "text": "asad.badi@proton.me"
-    },
-    {
-      "icon": "fas fa-phone",
-      "text": "+968 91148404"
-    },
-    {
-      "icon": "fas fa-map-marker-alt",
-      "text": "Muscat, Oman"
-    }
-  ],
-  "socialLinks": [
-    {
-      "icon": "fab fa-github",
-      "url": "https://github.com/asad-albadi",
-      "label": "GitHub"
-    },
-    {
-      "icon": "fab fa-linkedin",
-      "url": "https://linkedin.com/in/asad-albadi",
-      "label": "LinkedIn"
-    },
-    {
-      "icon": "fas fa-server",
-      "url": "https://gist.github.com/asad-albadi/f23ff6d6efabce2851421636274ccfc1",
-      "label": "Server Gist"
-    }
-  ],
-  "footer": {
-    "copyright": "© 2025 Asad Al Badi's Portfolio. All rights reserved."
-  }
-} 
+  "name": "Aarón Villanueva",
+  "role": "Theoretical Physicist",
+  "location": "Nijmegen, The Netherlands",
+  "photo": "assets/img/profile.jpg",
+  "contacts": [
+    { "type": "email", "label": "aaronv@science.ru.nl", "url": "mailto:aaronv@science.ru.nl" },
+    { "type": "email", "label": "aaron.villanueva@donders.ru.nl", "url": "mailto:aaron.villanueva@donders.ru.nl" },
+    { "type": "email", "label": "aaronuzv@gmail.com", "url": "mailto:aaronuzv@gmail.com" },
+    { "type": "github", "label": "github.com/aaronuv", "url": "https://github.com/aaronuv" }
+  ]
+}
