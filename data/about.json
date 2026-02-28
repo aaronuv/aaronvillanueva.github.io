@@ -16,7 +16,7 @@
     },
     {
       "title": "Scientific Software",
-      "description": "Production tools for reduced-order modeling (arby) and quantum control (PiQC) in Python and MATLAB."
+      "description": "I use Python, Julia and MATLAB for writing quality code for quantum simulation and quantum control applications."
     }
   ]
 }
