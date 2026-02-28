@@ -4,9 +4,7 @@ A clean, responsive, and data-driven personal/academic website built with pure H
 
 ## Contact me
 
-If you want to connect, write me at
-
-[aaronuzv@gmail.com](mailto: aaronuzv@gmail.com)
+If you want to connect send me an email at [aaronuzv@gmail.com](mailto:aaronuzv@gmail.com)
 
 ## License
 
