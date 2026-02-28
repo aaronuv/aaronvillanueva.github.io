@@ -1,10 +1,7 @@
 [
-  { "label": "About",        "target": "#about" },
-  { "label": "Research",     "target": "#research" },
-  { "label": "Publications", "target": "#publications" },
-  { "label": "Experience",   "target": "#experience" },
-  { "label": "Education",    "target": "#education" },
-  { "label": "Honors",       "target": "#honors" },
-  { "label": "Resume",       "target": "#resume" },
-  { "label": "Contact",      "target": "#contact" }
+  { "label": "About",      "target": "#about" },
+  { "label": "Resume",     "target": "#resume" },
+  { "label": "Portfolio",  "target": "#portfolio" },
+  { "label": "Honors",     "target": "#honors" },
+  { "label": "Contact",    "target": "#contact" }
 ]
