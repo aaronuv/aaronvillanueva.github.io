@@ -1,7 +1,9 @@
-[
-  { "label": "About",     "target": "#about" },
-  { "label": "Resume",    "target": "#resume" },
-  { "label": "Portfolio", "target": "#portfolio" },
-  { "label": "Honors",    "target": "#honors" },
-  { "label": "Contact",   "target": "#contact" }
-]
+{
+  "tabs": [
+    { "id": "about",     "title": "About",        "active": true  },
+    { "id": "resume",    "title": "Resume",        "active": false },
+    { "id": "interests", "title": "Research",      "active": false },
+    { "id": "honors",    "title": "Honors",        "active": false },
+    { "id": "contact",   "title": "Contact",       "active": false }
+  ]
+}
