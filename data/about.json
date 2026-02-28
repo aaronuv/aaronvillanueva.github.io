@@ -4,7 +4,7 @@
   "services": [
     {
       "title": "Quantum Control & Feedback",
-      "description": "Design and analysis of feedback protocols for open quantum systems: path-integral quantum control (PiQC), stochastic optimal control, and measurement-based state preparation."
+      "description": "Feedback protocols for open quantum systems: path-integral quantum control (PiQC), stochastic optimal control, and measurement-based state preparation."
     },
     {
       "title": "Stochastic Quantum Dynamics",
@@ -12,11 +12,11 @@
     },
     {
       "title": "Quantum Computing Theory",
-      "description": "Algorithms and control strategies for quantum annealing and near-term hardware, including decoherence analysis, noise cancellation, and complexity bounds."
+      "description": "Algorithms and control strategies for quantum annealing and near-term hardware: decoherence analysis, noise cancellation, and complexity bounds."
     },
     {
       "title": "Scientific Software",
-      "description": "Production-level tools for reduced-order modeling (arby) and quantum control (PiQC) in Python and MATLAB, plus ML frameworks (PyTorch, Keras) for quantum applications."
+      "description": "Production tools for reduced-order modeling (arby) and quantum control (PiQC) in Python and MATLAB, with ML frameworks (PyTorch, Keras) for quantum applications."
     }
   ]
 }
