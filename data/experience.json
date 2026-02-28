@@ -28,7 +28,8 @@
       "organization": "Los Alamos National Laboratory (LANL)",
       "location": "Los Alamos, New Mexico, US",
       "period": "Quantum Computing Summer School 2025",
-      "details": "Developed Julia and MATLAB software for calibration of quantum annealers such as the D-Wave machine."
+       "details": "Calibration of quantum annealers such as the D-Wave machine.
+      I also worked on developing novel quantum feedback control techniques for state preparation."
     }
   ],
   "teaching": [
