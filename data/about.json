@@ -1,19 +1,22 @@
 {
-  "id": "about",
-  "title": "About",
-  "intro": "Theoretical physicist working at the intersection of quantum control, quantum computing, and machine learning.",
+  "title": "About Me",
+  "description": "Theoretical physicist working at the intersection of quantum control, quantum computing, and machine learning. PhD candidate at Radboud University, Nijmegen.",
   "services": [
     {
       "title": "Quantum Control & Feedback",
-      "description": "Design and analysis of advanced feedback protocols for open quantum systems, including path-integral quantum control and stochastic optimal control."
+      "description": "Design and analysis of feedback protocols for open quantum systems: path-integral quantum control (PiQC), stochastic optimal control, and measurement-based state preparation."
     },
     {
       "title": "Stochastic Quantum Dynamics",
-      "description": "Lindblad master equations, quantum trajectories, and continuous measurement theory with geometric interpretations of measurement backaction."
+      "description": "Lindblad master equations, quantum trajectories, continuous measurement theory, and geometric interpretations of measurement backaction via double-bracket flows."
     },
     {
       "title": "Quantum Computing Theory",
-      "description": "Algorithms and control strategies for quantum annealing and measurement-based quantum computing under realistic noise and hardware constraints."
+      "description": "Algorithms and control strategies for quantum annealing and near-term hardware, including decoherence analysis, noise cancellation, and complexity bounds."
+    },
+    {
+      "title": "Scientific Software",
+      "description": "Production-level tools for reduced-order modeling (arby) and quantum control (PiQC) in Python and MATLAB, plus ML frameworks (PyTorch, Keras) for quantum applications."
     }
   ]
 }
