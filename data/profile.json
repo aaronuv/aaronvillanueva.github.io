@@ -1,7 +1,7 @@
 {
   "name": "Aarón Villanueva",
   "title": "Theoretical Physicist",
-  "avatar": "assets/img/profile.jpg",
+  "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Aar%C3%B3n%20Villanueva&backgroundColor=7c3aed&textColor=ffffff",
   "contactInfo": [
     { "icon": "fa-solid fa-location-dot", "text": "Nijmegen, The Netherlands" },
     { "icon": "fa-solid fa-envelope",     "text": "aaronv@science.ru.nl" },

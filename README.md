@@ -1,75 +1,52 @@
-# Modern Developer Portfolio Template
+# Personal Webpage
 
-A clean, responsive, and data-driven developer portfolio website template built with pure HTML, CSS, and JavaScript.
+A clean, responsive, and data-driven personal/academic website built with pure HTML, CSS, and JavaScript.
 
 ## Features
 
-- 💜 Purple-themed dark mode design (easily customizable)
-- 📱 Fully responsive layout (mobile, tablet, desktop)
-- 🧩 Modular CSS with clean separation of concerns (Layout, Components, Colors, Style)
-- ⚡ No frameworks - pure HTML, CSS, and JavaScript
-- 📄 **Data-Driven:** All content (profile info, about, resume, portfolio, honors, contact, navigation) is loaded dynamically from JSON files in the `/data` directory.
-- 🚀 **Easy Templating:** Update your portfolio by simply editing the JSON files - no HTML changes needed!
-- 🏗️ Structured for easy maintenance and future scaling
+- Purple-themed dark mode design
+- Fully responsive layout (mobile, tablet, desktop)
+- Modular CSS with clean separation of concerns
+- No frameworks - pure HTML, CSS, and JavaScript
+- Data-driven content loaded from JSON files in the `/data` directory
 
 ## Project Structure
 
 ```
-portfolio/
-├── index.html                # Main HTML structure (content loaded dynamically)
+├── index.html                # Main HTML structure
 ├── manifest.json             # PWA configuration
-├── README.md                 # This file
-├── /assets/                  # Optional: For non-placeholder assets (e.g., favicon)
-│   └── fonts/                # (Optional) Web fonts if needed
+├── CNAME                     # GitHub Pages custom domain
 ├── /css/
-│   ├── colors.css            # Theme variables and color palette
-│   ├── layout.css            # Grid, flex, spacing, mobile menu
-│   ├── components.css        # Cards, buttons, forms, specific element styling
-│   └── style.css             # General styles & overrides
+│   ├── colors.css            # Theme variables
+│   ├── layout.css            # Grid, flex, spacing
+│   ├── components.css        # Cards, buttons, forms
+│   └── style.css             # General styles
 ├── /js/
-│   ├── main.js               # Core interactivity (menu toggle, tab logic)
-│   ├── portfolio.js          # Portfolio filtering and rendering logic
-│   └── data-loader.js        # Fetches and loads all JSON data into HTML
-└── /data/                    # <<< ALL YOUR CONTENT GOES HERE >>>
-    ├── profile.json          # Name, title, avatar, contact, social links, footer
-    ├── navigation.json       # Defines the main navigation tabs
-    ├── about.json            # "About Me" text and "What I Do" services
-    ├── resume.json           # Experience, education, certifications, skills
-    ├── portfolio.json        # Your project details and tags
-    ├── honors.json           # Awards and recognitions
-    └── contact.json          # Contact form fields and map settings
+│   ├── main.js               # Menu toggle, tab logic
+│   ├── data-loader.js        # Loads JSON data into HTML
+│   └── pdfGenerator.js       # CV download as PDF
+└── /data/
+    ├── profile.json          # Name, title, avatar, contact, social links
+    ├── navigation.json      # Navigation tabs
+    ├── about.json            # About me and research areas
+    ├── publications.json     # Journal articles, preprints, conference papers
+    └── contact.json          # Contact form and map
 ```
 
 ## Getting Started
 
-1.  Clone or download this repository.
-2.  Open `index.html` in your browser (or use a simple live server for best results with `fetch`).
-3.  **Start editing the `.json` files in the `/data` directory to add your own content!**
+1. Clone or download this repository.
+2. Open `index.html` in a browser (use a live server for best results with `fetch`).
+3. Edit the JSON files in `/data` to customize your content.
 
-## Customizing Your Portfolio (Easy!)
+## Customizing
 
-This template is designed for easy customization by editing the JSON files in the `/data` directory:
-
-1.  **Profile & Sidebar/Header:** Edit `data/profile.json` to change your name, title, avatar URL, contact details (email, phone, location), social media links, and footer copyright.
-2.  **Navigation Tabs:** Modify `data/navigation.json` to change the names, order, or target IDs of the main navigation tabs.
-3.  **About Section:** Update `data/about.json` with your personal description and the services you offer.
-4.  **Resume Section:** Fill `data/resume.json` with your work experience, education, certifications, technical skills, and soft skills.
-5.  **Portfolio Projects:** Add/edit your projects in `data/portfolio.json`. The filter buttons will automatically update based on the unique `tags` you use across your projects.
-6.  **Honors & Awards:** List your achievements in `data/honors.json`.
-7.  **Contact Section:** Configure the contact form fields and the embedded map URL in `data/contact.json`.
-8.  **Colors:** Edit the CSS variables in `css/colors.css` to easily change the theme.
-9.  **(Optional) Favicon/Assets:** Replace `favicon.ico` and add any other necessary assets to the `/assets` folder if needed.
-
-**That's it! No need to modify `index.html` or complex JavaScript files for content updates.**
-
-## Browser Support
-
-This project works in all modern browsers (Chrome, Firefox, Safari, Edge).
+- **Profile:** Edit `data/profile.json` for name, title, avatar, contact, social links.
+- **Navigation:** Edit `data/navigation.json` for tab names and order.
+- **About:** Edit `data/about.json` for your bio and research areas.
+- **Publications:** Edit `data/publications.json` with journal articles, preprints, and conference papers.
+- **Contact:** Edit `data/contact.json` for form fields and map embed.
 
 ## License
 
 MIT
-
----
-
-Made with ❤️ by Asad 

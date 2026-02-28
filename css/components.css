@@ -500,6 +500,17 @@
     margin-bottom: 0.25rem;
 }
 
+.publication-link {
+    color: var(--primary);
+    margin-left: 0.5rem;
+    font-size: 0.875rem;
+    vertical-align: middle;
+}
+
+.publication-link:hover {
+    color: var(--primary-hover, var(--primary));
+}
+
 .company-info {
     display: flex;
     align-items: center;
