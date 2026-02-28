@@ -1,0 +1,50 @@
+{
+  "id": "education",
+  "title": "Education",
+  "degrees": [
+    {
+      "degree": "Licenciatura en Física (Master’s equivalent)",
+      "institution": "National University of Córdoba",
+      "location": "Córdoba, Argentina",
+      "period": "2014–2019",
+      "details": "Academic score 8.5/10. Thesis: \"On closed form expressions for gravitational waves\". Supervisor: Prof. Manuel Tiglio."
+    },
+    {
+      "degree": "PhD in Physics",
+      "institution": "Radboud University",
+      "location": "Nijmegen, The Netherlands",
+      "period": "2022–2026 (ongoing)",
+      "details": "Research on quantum control, measurement-based quantum computing, and stochastic quantum dynamics."
+    }
+  ],
+  "courses": [
+    {
+      "level": "Advanced undergraduate courses",
+      "items": [
+        "Mathematical Methods of Physics I, II",
+        "Electromagnetism I, II",
+        "Quantum Mechanics I, II",
+        "Thermodynamics and Statistical Mechanics I, II"
+      ]
+    },
+    {
+      "level": "Graduate-level courses (selected)",
+      "items": [
+        "Molecular Electronics – Prof. Horacio Pastawski – 10/10",
+        "Quantum Field Theory I – Prof. Carlos N. Kozameh – 10/10",
+        "Reduced Order Modeling – Prof. Manuel Tiglio – 10/10",
+        "Neural Networks – Prof. Francisco Tamarit – 10/10",
+        "Software Design for Scientific Computing – Prof. Juan B. Cabral – 10/10",
+        "Partial Differential Equations: Analytic and Numerical Methods – Prof. Oscar Reula – Approved",
+        "General Relativity I – Prof. Omar Ortiz – Approved"
+      ]
+    },
+    {
+      "level": "Extracurricular courses & certifications",
+      "items": [
+        "English course (3 months, 2018) – Facultad de Lenguas, UNC – Medium level certification",
+        "DataRobot Essentials (4 sessions, 2020) – DataRobot University – Essentials certification"
+      ]
+    }
+  ]
+}
