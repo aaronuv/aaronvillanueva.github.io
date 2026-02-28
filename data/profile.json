@@ -1,12 +1,18 @@
 {
   "name": "Aarón Villanueva",
-  "role": "Theoretical Physicist",
-  "location": "Nijmegen, The Netherlands",
-  "photo": "assets/img/profile.jpg",
-  "contacts": [
-    { "type": "email", "label": "aaronv@science.ru.nl", "url": "mailto:aaronv@science.ru.nl" },
-    { "type": "email", "label": "aaron.villanueva@donders.ru.nl", "url": "mailto:aaron.villanueva@donders.ru.nl" },
-    { "type": "email", "label": "aaronuzv@gmail.com", "url": "mailto:aaronuzv@gmail.com" },
-    { "type": "github", "label": "github.com/aaronuv", "url": "https://github.com/aaronuv" }
-  ]
+  "title": "Theoretical Physicist",
+  "avatar": "assets/img/profile.jpg",
+  "contactInfo": [
+    { "icon": "fa-solid fa-location-dot", "text": "Nijmegen, The Netherlands" },
+    { "icon": "fa-solid fa-envelope",     "text": "aaronv@science.ru.nl" },
+    { "icon": "fa-solid fa-envelope",     "text": "aaronuzv@gmail.com" }
+  ],
+  "socialLinks": [
+    { "icon": "fa-brands fa-github",   "url": "https://github.com/aaronuv",                         "label": "GitHub" },
+    { "icon": "fa-brands fa-linkedin", "url": "https://linkedin.com/in/aaronvillanueva",             "label": "LinkedIn" },
+    { "icon": "fa-solid fa-graduation-cap", "url": "https://scholar.google.com",                    "label": "Google Scholar" }
+  ],
+  "footer": {
+    "copyright": "© 2026 Aarón Villanueva. All rights reserved."
+  }
 }
