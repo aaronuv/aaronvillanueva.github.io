@@ -1,11 +1,19 @@
 {
   "id": "about",
   "title": "About",
-  "intro": "My research bridges theoretical quantum control and quantum simulation of open and closed quantum systems.",
-  "body": [
-    "I develop advanced control protocols for open quantum systems, including path-integral quantum control (PiQC) algorithms and stochastic optimal control frameworks. My work connects quantum measurement dynamics to double-bracket gradient flows, enabling feedback-driven quantum state preparation with exponential convergence guarantees.",
-    "I have deep expertise in Lindblad master equations, quantum trajectories, and the mathematical foundations of continuous measurement processes (Stratonovich and Itô formulations), with new geometric interpretations of wavefunction collapse as coarse-grained gradient flows on unitary orbits.",
-    "My research on quantum computing theory and algorithms critically analyzes quantum annealing speedup prospects and develops practical ground-state preparation methods on noisy quantum hardware, addressing decoherence, measurement backaction, and noise cancellation.",
-    "I maintain production-level scientific software, including reduced-order modeling tools (arby) and quantum control implementations (PiQC) in MATLAB and Python, and I work with machine learning frameworks such as PyTorch and Keras for reduced-order modeling and quantum applications."
+  "intro": "Theoretical physicist working at the intersection of quantum control, quantum computing, and machine learning.",
+  "services": [
+    {
+      "title": "Quantum Control & Feedback",
+      "description": "Design and analysis of advanced feedback protocols for open quantum systems, including path-integral quantum control and stochastic optimal control."
+    },
+    {
+      "title": "Stochastic Quantum Dynamics",
+      "description": "Lindblad master equations, quantum trajectories, and continuous measurement theory with geometric interpretations of measurement backaction."
+    },
+    {
+      "title": "Quantum Computing Theory",
+      "description": "Algorithms and control strategies for quantum annealing and measurement-based quantum computing under realistic noise and hardware constraints."
+    }
   ]
 }
