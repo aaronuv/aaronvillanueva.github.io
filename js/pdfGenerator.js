@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         'data/profile.json',
                         'data/about.json',
                         'data/publications.json',
+                        'data/funding.json',
                         'data/contact.json'
                     ];
 
@@ -26,7 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         profile: jsonData[0],
                         about: jsonData[1],
                         publications: jsonData[2],
-                        contact: jsonData[3]
+                        funding: jsonData[3],
+                        contact: jsonData[4]
                     };
 
                     if (typeof window.jspdf === 'undefined') {
@@ -103,6 +105,19 @@ function generatePdf(data, jsPDF) {
         allPubs.forEach(pub => {
             y = addText(pub.title, 10, 'bold');
             y = addText(`${pub.authors} — ${pub.venue}`, 9);
+            y += 2;
+        });
+    }
+
+    // Funding
+    const fundingItems = data.funding?.items || [];
+    if (fundingItems.length) {
+        y += 3;
+        y = addText('Funding', 12, 'bold');
+        fundingItems.forEach(item => {
+            y = addText(item.title, 10, 'bold');
+            y = addText(`${item.organization} — ${item.date}`, 9);
+            if (item.description) y = addText(item.description, 9);
             y += 2;
         });
     }

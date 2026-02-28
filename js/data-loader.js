@@ -7,9 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('data/navigation.json').then(res => res.json()),
     fetch('data/about.json').then(res => res.json()),
     fetch('data/publications.json').then(res => res.json()),
+    fetch('data/funding.json').then(res => res.json()),
     fetch('data/contact.json').then(res => res.json())
   ])
-  .then(([profileData, navigationData, aboutData, publicationsData, contactData]) => {
+  .then(([profileData, navigationData, aboutData, publicationsData, fundingData, contactData]) => {
     // Load profile data (Sidebar and Mobile Header)
     loadProfileData(profileData);
     
@@ -19,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Load content sections
     loadAboutSection(aboutData);
     loadPublicationsSection(publicationsData);
+    loadFundingSection(fundingData);
     loadContactSection(contactData);
     
     // Set footer
@@ -188,6 +190,38 @@ document.addEventListener('DOMContentLoaded', () => {
           <h4>${item.title}${linkHtml}</h4>
           <p class="company">${item.authors}</p>
           <p class="period">${item.venue}</p>
+        </div>
+      `;
+      timeline.appendChild(timelineItem);
+    });
+  }
+
+  // Load funding section (single list, timeline layout)
+  function loadFundingSection(data) {
+    const fundingSection = document.getElementById('funding');
+    if (!fundingSection) return;
+    
+    const sectionHeader = fundingSection.querySelector('.section-header h2');
+    if (sectionHeader) {
+      sectionHeader.textContent = data.title;
+    }
+    
+    const items = data.items || [];
+    const timeline = fundingSection.querySelector('.timeline');
+    if (!timeline) return;
+    
+    timeline.innerHTML = '';
+    items.forEach(item => {
+      const timelineItem = document.createElement('div');
+      timelineItem.className = 'timeline-item';
+      const descriptionHtml = item.description ? `<p class="description">${item.description}</p>` : '';
+      timelineItem.innerHTML = `
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h4>${item.title}</h4>
+          <p class="company">${item.organization}</p>
+          <p class="period">${item.date}</p>
+          ${descriptionHtml}
         </div>
       `;
       timeline.appendChild(timelineItem);
