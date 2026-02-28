@@ -12,16 +12,6 @@ email: aaronuzv@gmail.com
 email: aaronv@science.ru.nl
 website: https://github.com/aaronuv
 
-<nav class="section-nav">
-  <a href="#about-me">About</a>
-  <a href="#selected-projects">Projects</a>
-  <a href="#experience">Experience</a>
-  <a href="#teaching">Teaching</a>
-  <a href="#education">Education</a>
-  <a href="#publications">Publications</a>
-  <a href="#skills">Skills</a>
-</nav>
-
 
 # Dark Mode (true/false/never)
 darkmode: true
