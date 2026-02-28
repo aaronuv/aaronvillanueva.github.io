@@ -5,7 +5,7 @@
       "title": "Hamiltonian and double-bracket flow formulations of quantum measurements",
       "authors": "A. Villanueva, L. P. Garcia-Pintos",
       "venue": "arXiv:2512.15412",
-      "link": ""
+      "link": "https://arxiv.org/abs/2512.15412"
     },
     {
       "title": "Stochastic optimal control of open quantum systems",
@@ -41,13 +41,13 @@
       "title": "On the stability and accuracy of the empirical interpolation method and gravitational wave surrogates",
       "authors": "M. Tiglio, A. Villanueva",
       "venue": "Classical and Quantum Gravity 38, 135011 (2021)",
-      "link": ""
+      "link": "https://iopscience.iop.org/article/10.1088/1361-6382/abf8fd"
     },
     {
       "title": "Reduced order and surrogate models for gravitational waves",
       "authors": "M. Tiglio, A. Villanueva",
       "venue": "arXiv:2101.11608 [gr-qc] (2021), to appear in Living Reviews in Relativity",
-      "link": "https://arxiv.org/abs/2101.11608"
+      "link": "https://link.springer.com/article/10.1007/s41114-022-00035-w"
     }
   ]
 }
