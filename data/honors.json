@@ -1,30 +1,29 @@
 {
   "title": "Honors & Awards",
-  "sectionIcon": "fas fa-award",
   "awards": [
     {
-      "title": "Game Changer Award",
-      "organization": "Vodafone Oman",
-      "date": "June 2025",
-      "description": "Awarded for developing an Android mobile application that enables retailers and sales teams to instantly view and showcase Vodafone’s 5G network coverage, improving transparency, sales efficiency, and customer engagement."
+      "title": "CONICET PhD Scholarship",
+      "organization": "CONICET, Argentina",
+      "date": "2020 – 2025",
+      "description": "Doctoral scholarship in Physics awarded by the National Scientific and Technical Research Council of Argentina."
     },
     {
-      "title": "Game Changer Award",
-      "organization": "Vodafone Oman",
-      "date": "July 2024",
-      "description": "Recognized for automating the IR21 audit process for the Wholesale and Roaming teams, drastically reducing manual effort, improving accuracy, and accelerating compliance workflows."
+      "title": "Junior Scientist Scholarship — AQC 2023",
+      "organization": "Adiabatic Quantum Computing Conference",
+      "date": "2023",
+      "description": "Scholarship covering travel and accommodation for AQC 2023, New Mexico. Host: Prof. Tameem Albash."
     },
     {
-      "title": "Game Changer Award",
-      "organization": "Vodafone Oman",
-      "date": "May 2024",
-      "description": "Awarded for delivering impactful automation and system improvements that enhanced key operations within the Postpaid and Finance departments, contributing to increased efficiency and business performance."
+      "title": "EVC-CIN Scholarship",
+      "organization": "SECyT, Argentina",
+      "date": "2019",
+      "description": "One-year grant for academic merit supporting undergraduate scientific research."
     },
     {
-      "title": "Chairman Champion Team Award",
-      "organization": "Vodafone Oman",
-      "date": "March 2023",
-      "description": "Recognized for exceptional performance and contribution to team objectives, demonstrating leadership and innovation in implementing IT automation solutions."
+      "title": "Quantum Computing Summer School",
+      "organization": "Los Alamos National Laboratory",
+      "date": "2025",
+      "description": "Competitive internship at LANL for advanced graduate students in quantum computing and quantum information."
     }
   ]
 }
