@@ -1,6 +1,6 @@
 {
   "title": "Publications",
-  "journalArticles": [
+  "items": [
     {
       "title": "On ab initio-based, free and closed-form expressions for gravitational waves",
       "authors": "M. Tiglio, A. Villanueva",
@@ -18,9 +18,7 @@
       "authors": "A. Villanueva, P. Najafi, H. J. Kappen",
       "venue": "Journal of Physics A: Mathematical and Theoretical 56(46), 465304 (2023)",
       "link": "https://doi.org/10.1088/1751-8121/acff45"
-    }
-  ],
-  "preprints": [
+    },
     {
       "title": "Reduced order and surrogate models for gravitational waves",
       "authors": "M. Tiglio, A. Villanueva",
@@ -51,6 +49,5 @@
       "venue": "arXiv:2512.15412",
       "link": ""
     }
-  ],
-  "conferenceProceedings": []
+  ]
 }

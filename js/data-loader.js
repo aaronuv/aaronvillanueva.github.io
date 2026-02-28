@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
   
-  // Load publications section (resume-style timeline)
+  // Load publications section (single list)
   function loadPublicationsSection(data) {
     const publicationsSection = document.getElementById('publications');
     if (!publicationsSection) return;
@@ -171,43 +171,26 @@ document.addEventListener('DOMContentLoaded', () => {
       sectionHeader.textContent = data.title;
     }
     
-    const renderTimeline = (container, items) => {
-      if (!container || !items || items.length === 0) return;
-      container.innerHTML = '';
-      items.forEach(item => {
-        const timelineItem = document.createElement('div');
-        timelineItem.className = 'timeline-item';
-        const linkHtml = item.link 
-          ? ` <a href="${item.link}" target="_blank" rel="noopener noreferrer" class="publication-link"><i class="fas fa-external-link-alt"></i></a>`
-          : '';
-        timelineItem.innerHTML = `
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <h4>${item.title}${linkHtml}</h4>
-            <p class="company">${item.authors}</p>
-            <p class="period">${item.venue}</p>
-          </div>
-        `;
-        container.appendChild(timelineItem);
-      });
-    };
+    const items = data.items || [];
+    const timeline = publicationsSection.querySelector('.timeline');
+    if (!timeline) return;
     
-    const journalTimeline = publicationsSection.querySelector('.resume-section:nth-of-type(1) .timeline');
-    const preprintsTimeline = publicationsSection.querySelector('.resume-section:nth-of-type(2) .timeline');
-    const conferenceTimeline = publicationsSection.querySelector('.resume-section:nth-of-type(3) .timeline');
-    
-    renderTimeline(journalTimeline, data.journalArticles || []);
-    renderTimeline(preprintsTimeline, data.preprints || []);
-    renderTimeline(conferenceTimeline, data.conferenceProceedings || []);
-    
-    // Hide sections with no items
-    [journalTimeline, preprintsTimeline, conferenceTimeline].forEach((el, i) => {
-      const section = el?.closest('.resume-section');
-      if (section && (!el || el.children.length === 0)) {
-        section.style.display = 'none';
-      } else if (section) {
-        section.style.display = '';
-      }
+    timeline.innerHTML = '';
+    items.forEach(item => {
+      const timelineItem = document.createElement('div');
+      timelineItem.className = 'timeline-item';
+      const linkHtml = item.link 
+        ? ` <a href="${item.link}" target="_blank" rel="noopener noreferrer" class="publication-link"><i class="fas fa-external-link-alt"></i></a>`
+        : '';
+      timelineItem.innerHTML = `
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h4>${item.title}${linkHtml}</h4>
+          <p class="company">${item.authors}</p>
+          <p class="period">${item.venue}</p>
+        </div>
+      `;
+      timeline.appendChild(timelineItem);
     });
   }
   

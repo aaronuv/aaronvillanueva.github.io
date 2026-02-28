@@ -97,11 +97,7 @@ function generatePdf(data, jsPDF) {
     }
 
     // Publications
-    const allPubs = [
-        ...(data.publications.journalArticles || []),
-        ...(data.publications.preprints || []),
-        ...(data.publications.conferenceProceedings || [])
-    ];
+    const allPubs = data.publications.items || [];
     if (allPubs.length) {
         y = addText('Publications', 12, 'bold');
         allPubs.forEach(pub => {
