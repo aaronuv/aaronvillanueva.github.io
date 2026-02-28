@@ -2,10 +2,10 @@
   "title": "Funding",
   "items": [
     {
-      "title": "Quantum Computing Summer School",
+      "title": "Quantum Computing Summer Fellowship",
       "organization": "Los Alamos National Laboratory",
       "date": "2025",
-      "description": "Competitive internship at LANL for advanced graduate students in quantum computing and quantum information."
+      "description": "Competitive internship at LANL in quantum computing and quantum information. Acceptance ratio < 3%."
     },
     {
       "title": "Junior Scientist Scholarship — AQC 2023",
@@ -14,7 +14,7 @@
       "description": "Scholarship covering travel and accommodation for AQC 2023, New Mexico. Host: Prof. Tameem Albash."
     },
     {
-      "title": "CONICET PhD Scholarship",
+      "title": "CONICET Research Scholarship",
       "organization": "CONICET, Argentina",
       "date": "2020 – 2025",
       "description": "Doctoral scholarship in Physics awarded by the National Scientific and Technical Research Council of Argentina."
