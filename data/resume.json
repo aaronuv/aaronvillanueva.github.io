@@ -1,137 +1,89 @@
 {
   "title": "Resume",
-  "sectionIcons": {
-    "experience": "fas fa-briefcase",
-    "education": "fas fa-graduation-cap",
-    "certifications": "fas fa-certificate",
-    "languages": "fas fa-language",
-    "technicalSkills": "fas fa-laptop-code",
-    "softSkills": "fas fa-brain"
-  },
   "experience": [
     {
-      "title": "Application Development Senior Specialist",
-      "company": "Vodafone Oman",
-      "period": "November 2025 - Present",
-      "description": "Designing, developing, and delivering enterprise-grade applications that power Vodafone Oman’s digital services",
-      "logo": "https://brandlogos.net/wp-content/uploads/2022/08/vodafone-logo_brandlogos.net_yvaun.png"
+      "title": "PhD Candidate",
+      "company": "Radboud University",
+      "period": "2022 – 2026",
+      "description": "Research on quantum control, measurement-based quantum computing, and stochastic quantum dynamics. Supervisors: Prof. H. J. Kappen."
     },
     {
-      "title": "IT Automation Engineer",
-      "company": "Vodafone Oman",
-      "period": "June 2022 - November 2025",
-      "description": "Implementing automated solutions, resulting in increased efficiency and reduced costs across the organization. Troubleshooting complex IT issues and providing proactive support to improve systems and processes.",
-      "logo": "https://brandlogos.net/wp-content/uploads/2022/08/vodafone-logo_brandlogos.net_yvaun.png"
+      "title": "Intern – Quantum Computing Summer School",
+      "company": "Los Alamos National Laboratory (LANL)",
+      "period": "2025",
+      "description": "Developed Julia and MATLAB software for calibration of quantum annealers (D-Wave machine)."
     },
     {
-      "title": "IT Helpdesk Admin",
-      "company": "Mazoon Dairy Company SAOC",
-      "period": "September 2018 - June 2022",
-      "description": "Provided technical support to end-users and various departments, ensuring ICT-related issues were resolved efficiently. Assisted in building and configuring IT infrastructure, and proposed solutions to advance work in the pre-production phase.",
-      "logo": "https://apip.online/wp-content/uploads/2020/06/mazoon-logo-new-1.png"
+      "title": "Doctoral Researcher (CONICET scholarship)",
+      "company": "National University of Córdoba",
+      "period": "2020 – 2021",
+      "description": "Research on reduced-order models and surrogate models for gravitational waves."
+    },
+    {
+      "title": "Visiting Student",
+      "company": "Louisiana State University",
+      "period": "Jan – Feb 2020",
+      "description": "Research visit invited by Prof. Jorge Pullin."
+    },
+    {
+      "title": "Teaching Assistant",
+      "company": "Radboud University",
+      "period": "2022 – 2024",
+      "description": "Advanced Machine Learning; CDS Machine Learning."
+    },
+    {
+      "title": "Teaching Assistant",
+      "company": "FaMAF, National University of Córdoba",
+      "period": "2019",
+      "description": "Mathematical Methods of Physics I (1st semester); Electromagnetism I (2nd semester)."
     }
   ],
   "education": [
     {
-      "degree": "BSc in Software Engineering",
-      "institution": "Buraimi University College",
-      "period": "Completed in 2017"
+      "degree": "PhD in Physics",
+      "institution": "Radboud University, Nijmegen, The Netherlands",
+      "period": "2022 – 2026 (ongoing)"
+    },
+    {
+      "degree": "Licenciatura en Física (Master's equivalent) — 8.5/10",
+      "institution": "National University of Córdoba, Argentina",
+      "period": "2014 – 2019"
     }
   ],
   "certifications": [
-  {
-    "category": "Leadership & Management",
-    "items": [
-      "The Elite Program – LEORON Institute"
-    ]
-  },
-  {
-    "category": "Cloud & Infrastructure",
-    "items": [
-      "System Administration and IT Infrastructure Services – Google",
-      "Designing and Implementing a Data Science Solution on Azure (A) – Microsoft"
-    ]
-  },
-  {
-    "category": "Networking & Security",
-    "items": [
-      "IPv6 Fundamentals, Design and Deployment – Cisco",
-      "CompTIA Network+ (N10-007) Preparation",
-      "Cisco CCNA (200-301) Security, Automation, and Programmability"
-    ]
-  },
-  {
-    "category": "Software Development & Automation",
-    "items": [
-      "Using Python for Automation – LinkedIn",
-      "Machine Learning with Python: Foundations – LinkedIn",
-      "Mobile Testing with Appium – LinkedIn"
-    ]
-  }
-],
-
-  "languages": [
     {
-      "language": "English",
-      "proficiency": "Bilingual Proficiency"
+      "category": "Graduate courses (selected, all 10/10)",
+      "items": [
+        "Molecular Electronics – Prof. Horacio Pastawski",
+        "Quantum Field Theory I – Prof. Carlos N. Kozameh",
+        "Reduced Order Modeling – Prof. Manuel Tiglio",
+        "Neural Networks – Prof. Francisco Tamarit",
+        "Software Design for Scientific Computing – Prof. Juan B. Cabral"
+      ]
     },
     {
-      "language": "Arabic",
-      "proficiency": "Native Proficiency"
-    },
-    {
-      "language": "Spanish",
-      "proficiency": "Beginner"
+      "category": "Other certifications",
+      "items": [
+        "DataRobot Essentials – DataRobot University (2020)",
+        "English certification – Facultad de Lenguas, UNC (2018)"
+      ]
     }
   ],
   "technicalSkills": [
-    {
-      "name": "Flutter/Dart",
-      "percentage": 90,
-      "icon": "https://img.icons8.com/color/48/flutter.png"
-    },
-    {
-      "name": "Python",
-      "percentage": 95,
-      "icon": "https://img.icons8.com/color/48/python.png"
-    },
-    {
-      "name": "Java",
-      "percentage": 55,
-      "icon": "https://img.icons8.com/color/48/java-coffee-cup-logo.png"
-    },
-    {
-      "name": "Rust",
-      "percentage": 40,
-      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2048px-Rust_programming_language_black_logo.svg.png"
-    },
-    {
-      "name": "Server Administration",
-      "percentage": 92,
-      "icon": "https://static.thenounproject.com/png/640121-200.png"
-    },
-    {
-      "name": "Database (PostgreSQL, MongoDB)",
-      "percentage": 88,
-      "icon": "https://static.thenounproject.com/png/29365-200.png"
-    }
+    { "name": "Python",   "icon": "fa-brands fa-python" },
+    { "name": "MATLAB",   "icon": "fa-solid fa-calculator" },
+    { "name": "Julia",    "icon": "fa-solid fa-code" },
+    { "name": "Fortran",  "icon": "fa-solid fa-terminal" },
+    { "name": "PyTorch",  "icon": "fa-solid fa-brain" },
+    { "name": "Keras",    "icon": "fa-solid fa-network-wired" },
+    { "name": "LaTeX",    "icon": "fa-solid fa-file-code" },
+    { "name": "Git",      "icon": "fa-brands fa-git-alt" }
   ],
   "softSkills": [
-    {
-      "name": "Multitasking",
-      "percentage": 90
-    },
-    {
-      "name": "Attention to Detail",
-      "percentage": 95
-    },
-    {
-      "name": "Resourcefulness",
-      "percentage": 93
-    },
-    {
-      "name": "Cross-cultural Communication",
-      "percentage": 85
-    }
+    { "name": "Scientific Writing" },
+    { "name": "Teaching & Mentoring" },
+    { "name": "Research Planning" },
+    { "name": "Cross-disciplinary Collaboration" },
+    { "name": "Public Communication of Science" }
   ]
-} 
+}
