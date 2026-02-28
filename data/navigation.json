@@ -1,9 +1,10 @@
 [
-  { "label": "About",          "target": "#about" },
-  { "label": "Research",       "target": "#research" },
-  { "label": "Publications",   "target": "#publications" },
-  { "label": "Experience",     "target": "#experience" },
-  { "label": "Education",      "target": "#education" },
-  { "label": "Talks & Schools","target": "#talks" },
-  { "label": "Skills",         "target": "#skills" }
+  { "label": "About",        "target": "#about" },
+  { "label": "Research",     "target": "#research" },
+  { "label": "Publications", "target": "#publications" },
+  { "label": "Experience",   "target": "#experience" },
+  { "label": "Education",    "target": "#education" },
+  { "label": "Honors",       "target": "#honors" },
+  { "label": "Resume",       "target": "#resume" },
+  { "label": "Contact",      "target": "#contact" }
 ]
