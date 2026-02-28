@@ -8,17 +8,17 @@ version: 2
 # Personal info
 name: Aarón Villanueva
 title: Theoretical Physicist · Quantum Control & Quantum Computing
+email: aaronuzv@gmail.com
 email: aaronv@science.ru.nl
 website: https://github.com/aaronuv
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username:
+x_username: aaronuzv
 github_username: aaronuv
-instagram_username:
-linkedin_username: aaron-villanueva
+linkedin_username: aaronuv
 youtube_username:
 # orcid_username: 0000-0000-0000-0000
 
