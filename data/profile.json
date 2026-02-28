@@ -9,8 +9,8 @@
   ],
   "socialLinks": [
     { "icon": "fa-brands fa-github", "url": "https://github.com/aaronuv", "label": "GitHub" },
-    { "icon": "fa-brands fa-linkedin", "url": "https://linkedin.com/in/aaronvillanueva", "label": "LinkedIn" },
-    { "icon": "fa-solid fa-graduation-cap", "url": "https://scholar.google.com", "label": "Google Scholar" }
+    { "icon": "fa-brands fa-linkedin", "url": "www.linkedin.com/in/aaronuv", "label": "LinkedIn" },
+    { "icon": "fa-solid fa-graduation-cap", "url": "https://scholar.google.com/citations?user=NH5bMeoAAAAJ&hl=en&oi=ao", "label": "Google Scholar" }
   ],
   "footer": { "copyright": "© 2026 Aarón Villanueva. All rights reserved." }
 }
