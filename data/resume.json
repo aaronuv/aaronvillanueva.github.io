@@ -1,0 +1,137 @@
+{
+  "title": "Resume",
+  "sectionIcons": {
+    "experience": "fas fa-briefcase",
+    "education": "fas fa-graduation-cap",
+    "certifications": "fas fa-certificate",
+    "languages": "fas fa-language",
+    "technicalSkills": "fas fa-laptop-code",
+    "softSkills": "fas fa-brain"
+  },
+  "experience": [
+    {
+      "title": "Application Development Senior Specialist",
+      "company": "Vodafone Oman",
+      "period": "November 2025 - Present",
+      "description": "Designing, developing, and delivering enterprise-grade applications that power Vodafone Oman’s digital services",
+      "logo": "https://brandlogos.net/wp-content/uploads/2022/08/vodafone-logo_brandlogos.net_yvaun.png"
+    },
+    {
+      "title": "IT Automation Engineer",
+      "company": "Vodafone Oman",
+      "period": "June 2022 - November 2025",
+      "description": "Implementing automated solutions, resulting in increased efficiency and reduced costs across the organization. Troubleshooting complex IT issues and providing proactive support to improve systems and processes.",
+      "logo": "https://brandlogos.net/wp-content/uploads/2022/08/vodafone-logo_brandlogos.net_yvaun.png"
+    },
+    {
+      "title": "IT Helpdesk Admin",
+      "company": "Mazoon Dairy Company SAOC",
+      "period": "September 2018 - June 2022",
+      "description": "Provided technical support to end-users and various departments, ensuring ICT-related issues were resolved efficiently. Assisted in building and configuring IT infrastructure, and proposed solutions to advance work in the pre-production phase.",
+      "logo": "https://apip.online/wp-content/uploads/2020/06/mazoon-logo-new-1.png"
+    }
+  ],
+  "education": [
+    {
+      "degree": "BSc in Software Engineering",
+      "institution": "Buraimi University College",
+      "period": "Completed in 2017"
+    }
+  ],
+  "certifications": [
+  {
+    "category": "Leadership & Management",
+    "items": [
+      "The Elite Program – LEORON Institute"
+    ]
+  },
+  {
+    "category": "Cloud & Infrastructure",
+    "items": [
+      "System Administration and IT Infrastructure Services – Google",
+      "Designing and Implementing a Data Science Solution on Azure (A) – Microsoft"
+    ]
+  },
+  {
+    "category": "Networking & Security",
+    "items": [
+      "IPv6 Fundamentals, Design and Deployment – Cisco",
+      "CompTIA Network+ (N10-007) Preparation",
+      "Cisco CCNA (200-301) Security, Automation, and Programmability"
+    ]
+  },
+  {
+    "category": "Software Development & Automation",
+    "items": [
+      "Using Python for Automation – LinkedIn",
+      "Machine Learning with Python: Foundations – LinkedIn",
+      "Mobile Testing with Appium – LinkedIn"
+    ]
+  }
+],
+
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Bilingual Proficiency"
+    },
+    {
+      "language": "Arabic",
+      "proficiency": "Native Proficiency"
+    },
+    {
+      "language": "Spanish",
+      "proficiency": "Beginner"
+    }
+  ],
+  "technicalSkills": [
+    {
+      "name": "Flutter/Dart",
+      "percentage": 90,
+      "icon": "https://img.icons8.com/color/48/flutter.png"
+    },
+    {
+      "name": "Python",
+      "percentage": 95,
+      "icon": "https://img.icons8.com/color/48/python.png"
+    },
+    {
+      "name": "Java",
+      "percentage": 55,
+      "icon": "https://img.icons8.com/color/48/java-coffee-cup-logo.png"
+    },
+    {
+      "name": "Rust",
+      "percentage": 40,
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2048px-Rust_programming_language_black_logo.svg.png"
+    },
+    {
+      "name": "Server Administration",
+      "percentage": 92,
+      "icon": "https://static.thenounproject.com/png/640121-200.png"
+    },
+    {
+      "name": "Database (PostgreSQL, MongoDB)",
+      "percentage": 88,
+      "icon": "https://static.thenounproject.com/png/29365-200.png"
+    }
+  ],
+  "softSkills": [
+    {
+      "name": "Multitasking",
+      "percentage": 90
+    },
+    {
+      "name": "Attention to Detail",
+      "percentage": 95
+    },
+    {
+      "name": "Resourcefulness",
+      "percentage": 93
+    },
+    {
+      "name": "Cross-cultural Communication",
+      "percentage": 85
+    }
+  ]
+} 
